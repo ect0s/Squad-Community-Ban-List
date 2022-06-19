@@ -13,16 +13,14 @@ const sections = [
     name: 'Squad Community Ban List Basics',
     questions: [
       {
-        question: 'What is the Squad Community Ban List?',
+        question: 'What is GameBans.org',
         answer: (
           <>
-            The Squad Community Ban List is a community-led project that aims to protect the Squad
-            community's integrity through collaboration and information sharing. It does this by
-            importing ban information from various popular Squad servers, known as our partner
-            organisations, into a database and providing functionality to search and export the data
-            or aggregations of the data in a number of different formats. The project is lead by
-            Tommy but its development has been contributed to by other members of the community. The
-            project is not affiliated with Offworld Industries.
+            GameBans.org is a community led project with the goal to give communities to assist one another by contibuting and collaborating
+together to provide infomation across multiple communities banlist. We achieve this by importing ban information from various popular 
+gaming communities. These communities are known as Partnered Organisations, They are held to the Highest standard of administration.
+In turn share their ban information and have access to banlists from other Partnered Organisations. into a database and providing functionality to search and export the data
+or aggregations of the data in a number of different formats.
           </>
         )
       },
