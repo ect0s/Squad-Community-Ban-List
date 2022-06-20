@@ -34,7 +34,7 @@ class ExportBan extends Sequelize.Model {
             ],
             nativeEnabled: null,
             note: null,
-            reason: `Appeal via squad-community-ban-list.com/banned/${this.steamUser}`
+            reason: `Appeal via gamebans.org/banned/${this.steamUser}`
           },
           relationships: {
             organization: {
