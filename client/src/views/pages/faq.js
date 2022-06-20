@@ -10,25 +10,26 @@ import Layout from '../layout/layout.js';
 
 const sections = [
   {
-    name: 'Squad Community Ban List Basics',
+    name: 'GameBans.org Basics',
     questions: [
       {
-        question: 'What is GameBans.org',
+        question: 'What is GameBans.org?',
         answer: (
           <>
-            GameBans.org is a community led project with the goal to give communities to assist one another by contibuting and collaborating
-together to provide infomation across multiple communities banlist. We achieve this by importing ban information from various popular 
-gaming communities. These communities are known as Partnered Organisations, They are held to the Highest standard of administration.
-In turn share their ban information and have access to banlists from other Partnered Organisations. into a database and providing functionality to search and export the data
-or aggregations of the data in a number of different formats.
+            GameBans.org is a community-led project that aims to protect our partners
+            communities through collaboration and information sharing. It does this by
+            importing ban information from various game servers, known as our partner
+            organisations, into a database and providing functionality to search and export the data
+            or aggregations of the data in a number of different formats. The
+            project is not affiliated with the publishers or developers of the games we support. 
           </>
         )
       },
       {
-        question: 'How often is the Squad Community Ban List updated?',
+        question: 'How often is GameBans.org updated?',
         answer: (
           <>
-            The Squad Community Ban List updates automatically every 6 hours, however, some
+            GameBans.org updates automatically every 6 hours, however, some
             information is updated less frequently. Steam user profile information is updated every
             7 days or when we import new or updated bans belonging to that user.
           </>
@@ -70,7 +71,7 @@ or aggregations of the data in a number of different formats.
         question: 'How are ban reasons assigned?',
         answer: (
           <>
-            The Squad Community Ban List assigns ban reasons to one or more categorises based on
+            GameBans.org assigns ban reasons to one or more categorises based on
             keywords/phrases found in the ban reasons assigned by our partner organisations. We do
             this to ensure they are easily read and analysed, consistent, professional and to
             protect any confidential information. Our keywords and phrases are not perfect so there
@@ -82,7 +83,7 @@ or aggregations of the data in a number of different formats.
         question: 'Why have I been banned for an "Unknown" reason?',
         answer: (
           <>
-            The Squad Community Ban List assigns ban reasons to one or more categorises based on
+            GameBans.org assigns ban reasons to one or more categorises based on
             keywords/phrases found in the ban reasons assigned by our partner organisations. Our
             keywords and phrases are not perfect so there may be a small number of scenarios where
             ban reasons cannot be categorised so the reason is shown as "Unknown". This does

@@ -24,10 +24,9 @@ export default function () {
             <CardBody>
               <h5>Introduction to Partner Organisations</h5>
               <p>
-                Partner organisations are Squad communities that contribute ban information from
-                their server's ban lists to the Squad Community Ban List database. Any Squad
-                community can become a partner organisation providing they have an active Squad
-                server licensed by Offworld Industries.
+                Partner organisations are gaming communities that contribute ban information from
+                their server's ban lists to the GameBans.org database. Any 
+                community can become a partner organisation providing their games are supported by GameBans.org
               </p>
               <p>
                 Becoming a partner organisation requires very little effort. We simply request the
@@ -45,14 +44,14 @@ export default function () {
               <p>
                 There are currently no benefits to being a partner organisation, however, everyone
                 benefits from our partner organisations as the more partner organisations that
-                contribute information on players the more effective the Squad Community Ban List
-                becomes in protecting the integrity of the Squad community so, please consider
+                contribute information on players the more effective GameBans.org
+                becomes in protecting the integrity of the communities that use it. Please consider
                 contributing to thank others for their contributions.
               </p>
               <h5>Form</h5>
               <p>
                 If you are interested in becoming a partner organisation, please provide the
-                following information via direct message to Tommy who can be found on our{' '}
+                following information via direct message to our team who can be found on our{' '}
                 <a href={DISCORD_INVITE}>Discord</a>:
               </p>
               <pre>
@@ -88,7 +87,7 @@ export default function () {
               </p>
               <br />
               <p>
-                If you wish to stop contributing as a partner organisation, please contact Tommy who
+                If you wish to stop contributing as a partner organisation, please contact our team which
                 can be found on our <a href={DISCORD_INVITE}>Discord</a>.
               </p>
             </CardBody>
